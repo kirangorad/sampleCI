@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="3" name="com.mavenproject.sample.NewTest" time="6.233" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kiran\eclipse-workspace\sample"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\kiran\eclipse-workspace\sample"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kiran\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\kiran\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1226336036439600341.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\kiran\AppData\Local\Microsoft\WindowsApps;;D:\Sort It\Downloads\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kiran"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="kiran"/>
+    <property name="java.class.path" value="D:\Sort It\Downloads\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_191"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\kiran\eclipse-workspace\sample\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.mavenproject.sample.NewTest" name="test1" time="4.015">
+    <failure message="Unable to locate element: #menu-item-64 &gt; a:nth-child(1)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;KIRAN-PC&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11324, moz:profile: C:\Users\kiran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15be941b-8093-46d5-995c-4a1ea8d29413
+*** Element info: {Using=css selector, value=#menu-item-64 &gt; a:nth-child(1)}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: #menu-item-64 &gt; a:nth-child(1)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;KIRAN-PC&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11324, moz:profile: C:\Users\kiran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15be941b-8093-46d5-995c-4a1ea8d29413
+*** Element info: {Using=css selector, value=#menu-item-64 &gt; a:nth-child(1)}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.mavenproject.sample.NewTest.test1(NewTest.java:27)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6996db8
+</system-out>
+    <system-err>1544735272084	geckodriver	INFO	geckodriver 0.21.0
+1544735272141	geckodriver	INFO	Listening on 127.0.0.1:31584
+1544735272938	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\kiran\\AppData\\Local\\Temp\\rust_mozprofile.o59MySCn2jGZ&quot;
+1544735274182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: resource://pdf.js/
+1544735274182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension &apos;screenshots@mozilla.org&apos;: Reading manifest: Invalid host permission: about:reader*
+1544735274517	Marionette	DEBUG	Received observer notification profile-after-change
+1544735274947	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544735275051	Marionette	DEBUG	Received observer notification command-line-startup
+1544735275055	Marionette	DEBUG	Received observer notification nsPref:changed
+1544735275058	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1544735275471	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544735278006	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1544735278007	Marionette	DEBUG	GFX sanity window detected, waiting until it has been closed...
+1544735278322	Marionette	DEBUG	Received observer notification domwindowclosed
+1544735278322	Marionette	DEBUG	Waiting for delayed startup...
+1544735278660	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1544735278661	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1544735278662	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1544735278662	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1544735278662	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1544735278663	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1544735278663	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1544735278665	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1544735278666	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1544735278666	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1544735278667	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1544735278668	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1544735278668	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1544735278669	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1544735278669	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1544735278670	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1544735278670	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1544735278670	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1544735278671	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1544735278671	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1544735278671	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1544735278672	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1544735278672	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1544735278673	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1544735278673	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1544735278674	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1544735278675	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1544735278675	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1544735278889	Marionette	INFO	Listening on port 63659
+1544735278890	Marionette	DEBUG	Remote service is active
+1544735279108	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:63676
+1544735279116	Marionette	TRACE	0 -&gt; [0,1,&quot;WebDriver:NewSession&quot;,{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}]
+1544735279117	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544735279614	Marionette	DEBUG	[6442450945] Frame script loaded
+1544735279622	Marionette	DEBUG	[6442450945] Frame script registered
+1544735279635	Marionette	TRACE	0 &lt;- [1,1,null,{&quot;sessionId&quot;:&quot;15be941b-8093-46d5-995c-4a1ea8d29413&quot;,&quot;capabilities&quot;:{&quot;browserName&quot;:&quot;firefox&quot;,&quot;browserVersion&quot;:&quot;64.0&quot; ... alse,&quot;moz:webdriverClick&quot;:true,&quot;capabilities&quot;:{&quot;desiredCapabilities&quot;:{&quot;acceptInsecureCerts&quot;:true,&quot;browserName&quot;:&quot;firefox&quot;}}}}]
+Dec 14, 2018 2:37:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1544735279924	Marionette	TRACE	0 -&gt; [0,2,&quot;WebDriver:Navigate&quot;,{&quot;url&quot;:&quot;http://demoqa.com/&quot;}]
+1544735279946	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1544735281780	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: http://demoqa.com/, line 54: TypeError: $ is not a function
+1544735283050	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://demoqa.com/
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-109033876-1, line 147: unreachable code after return statement
+1544735283764	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://demoqa.com/
+1544735283767	Marionette	TRACE	0 &lt;- [1,2,null,{&quot;value&quot;:null}]
+1544735283830	Marionette	TRACE	0 -&gt; [0,3,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;css selector&quot;,&quot;value&quot;:&quot;#menu-item-64 &gt; a:nth-child(1)&quot;}]
+1544735283843	Marionette	TRACE	0 &lt;- [1,3,{&quot;error&quot;:&quot;no such element&quot;,&quot;message&quot;:&quot;Unable to locate element: #menu-item-64 &gt; a:nth-child(1)&quot;,&quot;stacktrace&quot;:&quot;WebDriverE ... entError@chrome://marionette/content/error.js:388:5\nelement.find/&lt;/&lt;@chrome://marionette/content/element.js:339:16\n&quot;},null]
+</system-err>
+  </testcase>
+  <testcase classname="com.mavenproject.sample.NewTest" name="test2" time="0.032">
+    <failure message="Unable to locate element: /html/body/div[1]/div/div[1]/main/article/div/div/form/p[1]/span/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;KIRAN-PC&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11324, moz:profile: C:\Users\kiran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15be941b-8093-46d5-995c-4a1ea8d29413
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[1]/main/article/div/div/form/p[1]/span/input}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div/div[1]/main/article/div/div/form/p[1]/span/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;KIRAN-PC&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11324, moz:profile: C:\Users\kiran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15be941b-8093-46d5-995c-4a1ea8d29413
+*** Element info: {Using=xpath, value=/html/body/div[1]/div/div[1]/main/article/div/div/form/p[1]/span/input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.mavenproject.sample.NewTest.test2(NewTest.java:34)
+</failure>
+    <system-err>1544735283955	Marionette	TRACE	0 -&gt; [0,4,&quot;WebDriver:FindElement&quot;,{&quot;using&quot;:&quot;xpath&quot;,&quot;value&quot;:&quot;/html/body/div[1]/div/div[1]/main/article/div/div/form/p[1]/span/input&quot;}]
+1544735283965	Marionette	TRACE	0 &lt;- [1,4,{&quot;error&quot;:&quot;no such element&quot;,&quot;message&quot;:&quot;Unable to locate element: /html/body/div[1]/div/div[1]/main/article/div/div/form/p ... entError@chrome://marionette/content/error.js:388:5\nelement.find/&lt;/&lt;@chrome://marionette/content/element.js:339:16\n&quot;},null]
+</system-err>
+  </testcase>
+  <testcase classname="com.mavenproject.sample.NewTest" name="clearTest" time="2.186">
+    <failure message="Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;KIRAN-PC&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11324, moz:profile: C:\Users\kiran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15be941b-8093-46d5-995c-4a1ea8d29413" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;KIRAN-PC&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11324, moz:profile: C:\Users\kiran\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 15be941b-8093-46d5-995c-4a1ea8d29413
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:448)
+	at com.mavenproject.sample.NewTest.clearTest(NewTest.java:53)
+</failure>
+    <system-err>1544735283994	Marionette	TRACE	0 -&gt; [0,5,&quot;WebDriver:CloseWindow&quot;,{}]
+1544735283995	Marionette	TRACE	0 &lt;- [1,5,null,[]]
+1544735284001	Marionette	TRACE	0 -&gt; [0,6,&quot;Marionette:Quit&quot;,{&quot;flags&quot;:[&quot;eForceQuit&quot;]}]
+1544735284004	Marionette	INFO	Stopped listening on port 63659
+1544735284254	Marionette	TRACE	0 &lt;- [1,6,null,{&quot;cause&quot;:&quot;shutdown&quot;}]
+[Child 10368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1544735284364	Marionette	DEBUG	Closed connection 0
+[Child 4752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1544735284965	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1544735284965	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1544735284965	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1544735284966	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1544735284966	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1544735284967	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1544735284967	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1544735284970	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1544735284970	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1544735284970	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1544735284971	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1544735284971	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1544735284972	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1544735284972	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1544735284974	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1544735284974	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1544735284974	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1544735284975	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1544735284975	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1544735284975	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1544735284977	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1544735284977	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1544735284978	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1544735284978	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1544735284978	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1544735284978	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1544735284978	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1544735284979	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1544735284979	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1544735284981	Marionette	DEBUG	Remote service is inactive
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+</system-err>
+  </testcase>
+</testsuite>
