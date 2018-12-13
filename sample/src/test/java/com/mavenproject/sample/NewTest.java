@@ -40,6 +40,11 @@ public class NewTest {
         element = driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/main/article/div/div/form/p[3]/span/input"));
         element.sendKeys("want to ask somthing about testing");
 
+    }
+    
+    @Test
+    public void test3() {
+
         element = driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/main/article/div/div/form/p[4]/span/textarea"));
         element.sendKeys("please contact as soon as possible ");
 
